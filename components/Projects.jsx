@@ -1,6 +1,6 @@
 import Image  from 'next/image'
 import Link  from 'next/link'
-import ProjectImage from '../public/assets/projects/property.jpg'
+
 const Projects = () => {
     return (
         <div id='projects' className='w-full'>
@@ -9,7 +9,7 @@ const Projects = () => {
                 <h1>What I have Built</h1>
                 <div className='grid md:grid-cols-2 gap-8 my-4'>
                     <div className='relative flex items-center justify-center w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#565eef] to-[#709dff]'>
-                        <Image className='rounded-xl group-hover:opacity-10'  src={ProjectImage} alt='/'/>
+                        <Image className='rounded-xl group-hover:opacity-10' width={555} height={400} src='/../public/assets/projects/property.jpg' alt='/'/>
                         <div className='hidden  group-hover:block absolute '>
                             <div className="flex justify-center items-center">
                                 <div>
@@ -23,7 +23,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='relative flex items-center justify-center w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#565eef] to-[#709dff]'>
-                        <Image className='rounded-xl group-hover:opacity-10'  src={ProjectImage} alt='/'/>
+                        <Image className='rounded-xl group-hover:opacity-10' width={555} height={400} src='/../public/assets/projects/property.jpg' alt='/'/>
                         <div className='hidden  group-hover:block absolute '>
                             <div className="flex justify-center items-center">
                                 <div>
@@ -37,7 +37,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='relative flex items-center justify-center w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#565eef] to-[#709dff]'>
-                        <Image className='rounded-xl group-hover:opacity-10'  src={ProjectImage} alt='/'/>
+                        <Image className='rounded-xl group-hover:opacity-10' width={555} height={400} src='/../public/assets/projects/property.jpg' alt='/'/>
                         <div className='hidden  group-hover:block absolute '>
                             <div className="flex justify-center items-center">
                                 <div>
@@ -51,7 +51,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='relative flex items-center justify-center w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#565eef] to-[#709dff]'>
-                        <Image className='rounded-xl group-hover:opacity-10'  src={ProjectImage} alt='/'/>
+                        <Image className='rounded-xl group-hover:opacity-10' width={555} height={400} src='/../public/assets/projects/property.jpg' alt='/'/>
                         <div className='hidden  group-hover:block absolute '>
                             <div className="flex justify-center items-center">
                                 <div>
