@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link  from 'next/Link';
+import Link  from 'next/link';
 import {  AiOutlineMail } from 'react-icons/ai'
 import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
