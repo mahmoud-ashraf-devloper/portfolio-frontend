@@ -4,7 +4,7 @@ import {  AiOutlineMail } from 'react-icons/ai'
 import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
-
+import ContactImage from '../public/assets/contact.jpg'
 
 const Contact = () => {
     return (
@@ -18,7 +18,7 @@ const Contact = () => {
                     <div className=' col-span-2 py-4 px-4 shadow-xl rounded-xl  shadow-gray-400 flex flex-col justify-between h-full'>
                         <div className='mt-2'>
 
-                            <Image className='hover:scale-105 ease-in duration-300 rounded-xl' width={500} height={420} src='/../public/assets/contact.jpg' alt='/' />
+                            <Image className='hover:scale-105 ease-in duration-300 rounded-xl' src={ContactImage} alt='/' />
                             <h3 className='my-4'>Mahmoud Ashraf</h3>
                             <p className='my-3'>Full Stack Web Developer</p>
                             <p>I am available for freelancer or full-time positions. contact me and lets talk.</p>
