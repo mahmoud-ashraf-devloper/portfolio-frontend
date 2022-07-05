@@ -1,33 +1,34 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
-import {AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
-import {FaFacebook, FaGithub, FaLinkedinIn} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
+import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import Logo from '../public/assets/logo.png'
 const Navbar = () => {
-    const [nav,setNav] = useState(false);
+    const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
 
     const handleNav = () => {
-      setNav(!nav)  
+        setNav(!nav)
     }
 
-    
+
     useEffect(() => {
         const handleShadow = () => {
-          (window.scrollY>=90) ? setShadow(true) : setShadow(false)
+            (window.scrollY >= 90) ? setShadow(true) : setShadow(false)
         }
 
         window.addEventListener('scroll', handleShadow)
-        
+
     }, []);
 
     return (
         <div className={shadow ? 'bg-[#ecf0f3] fixed w-full h-20 z-[100] shadow-xl' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 cursor-pointer'>
-                    <Link alt='/' href='/'> 
-                        <Image href='/' src='/../public/assets/logo.png' width='125' height='50' alt='/' />
-                    </Link>
+                <Link alt='/' href='/'>
+                    <Image width={70} height={50} src={Logo} alt='/' />
+                </Link>
                 <div>
                     <ul className='hidden md:flex space-x-10'>
                         <Link href='/'>
@@ -51,13 +52,13 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70': ''}>
-                <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[40%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500': 'hidden'}>
+            <div className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
+                <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[40%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'hidden'}>
                     <div>
                         <div className='flex items-center justify-between'>
                             <Image src='/../public/assets/logo.png' width='87' height='35' alt='/' />
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 cursor-pointer p-3'>
-                                <AiOutlineClose size={20}/>
+                                <AiOutlineClose size={20} />
                             </div>
                         </div>
                         <div className='border-b border-gray-300 my-6'>
@@ -65,24 +66,24 @@ const Navbar = () => {
                         </div>
                         <div className='py-4 uppercase'>
                             <ul>
-                                <Link  href='/'>
+                                <Link href='/'>
                                     <li className='py-4 text-sm '>Home</li>
                                 </Link>
-                                <Link  href='/#about'>
+                                <Link href='/#about'>
                                     <li className='py-4 text-sm '>About</li>
                                 </Link>
-                                <Link  href='/#skills'>
+                                <Link href='/#skills'>
                                     <li className='py-4 text-sm '>Skills</li>
                                 </Link>
-                                <Link  href='/#projects'>
+                                <Link href='/#projects'>
                                     <li className='py-4 text-sm '>Projects</li>
                                 </Link>
-                                <Link  href='/#contact'>
+                                <Link href='/#contact'>
                                     <li className='py-4 text-sm '>Contact</li>
-                                </Link> 
+                                </Link>
                             </ul>
                         </div>
-                        
+
                         <div className='pt-40'>
                             <p>Lets Contact</p>
                             <div className='flex justify-center items-center my-4 space-x-3'>
