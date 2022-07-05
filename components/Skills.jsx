@@ -6,6 +6,7 @@ import ReactImage from '../public/assets/skills/react.png';
 import TailwindImage from '../public/assets/skills/tailwind.png';
 import GithubImage from '../public/assets/skills/github1.png';
 import LaravelImage from '../public/assets/skills/laravel.png';
+import PhpImage from '../public/assets/skills/php.png';
 const Skills = () => {
   return (
     <div id='skills' className="w-full lg:h-screen px-2 my-2">
@@ -86,7 +87,7 @@ const Skills = () => {
                 <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                     <div className="grid grid-cols-2 gap-4  justify-center items-center">
                         <div className="m-auto w-20">
-                            <Image width='64' height='64S' src='/../public/assets/skills/php.png' alt='/'/>
+                            <Image src={PhpImage} alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3 className='uppercase'>php</h3>
