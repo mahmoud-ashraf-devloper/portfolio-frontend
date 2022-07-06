@@ -1,4 +1,5 @@
 import Image  from 'next/image';
+import AboutImage from '../public/assets/about-image.jpg';
 const About = () => {
   return (
     <div id='about' className="max-w-[1240px] mx-auto w-full min-h-screen flex items-center justify-center py-24  px-4 ">
@@ -14,7 +15,7 @@ const About = () => {
                 <p className='text-gray-600  underline cursor-pointer my-10'>See some Of My projects</p>
             </div>
             <div className='overflow-hidden w-full h-auto m-auto mix-blend-darken rounded-2xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <Image className='' src='/../public/assets/about-image.jpg' width={420} height={350} alt='/'/>
+                <Image src={AboutImage} alt='/'/>
             </div>
         </div>
     </div>
