@@ -5,8 +5,8 @@ const Projects = () => {
     return (
         <div id='projects' className='w-full'>
             <div className='max-w-[1240px] mx-auto px-2 py-24 '>
-                <h3 className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</h3>
-                <h1>What I have Built</h1>
+                <h2 className='text-3xl tracking-widest uppercase text-[#5651e5]  text-center'>Projects</h2>
+                <h1 className='my-8'>What I have Built</h1>
                 <div className='grid md:grid-cols-2 gap-8 my-4'>
                     <div className='relative flex items-center justify-center w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#565eef] to-[#709dff]'>
                         <Image className='rounded-xl group-hover:opacity-10'  src={ProjectImage} alt='/'/>

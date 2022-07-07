@@ -2,12 +2,12 @@ import Image  from 'next/image';
 import AboutImage from '../public/assets/about-image.jpg';
 const About = () => {
   return (
-    <div id='about' className="max-w-[1240px] mx-auto w-full min-h-screen flex items-center justify-center py-24  px-4 ">
+    <div id='about' className="max-w-[1240px] mx-auto w-full min-h-screen py-24  px-4 ">
+                <h2 className='text-3xl tracking-widest uppercase text-[#5651e5]  text-center '>About</h2>
         <div className=" md:grid grid-cols-3 gap-3">
-            <div className="col-span-2 w-full h-full">
-                <h2 className='text-xl tracking-widest uppercase text-[#5651e5] mt-10 mb-2'>About</h2>
+            <div className="col-span-2 w-full h-full ">
 
-                <h6 className='text-6xl mb-10'>Who Am I?</h6>
+                <h1 className='md:my-10'>Who Am I?</h1>
                 <p className='text-gray-600 my-2'>I am not your Normal developer</p>
                 <p>I Am Mahmoud 22 Years Old, Obsessed With Web Development Stuff, I Am Also Reliable Person, Can Work Under Pressure, Have Been Through A Lot So Do Not Worry Your Work Will Be Done Fast And Efficiently</p>
                 <p>I Am Mahmoud 22 Years Old, Obsessed With Web Development Stuff, I Am Also Reliable Person, Can Work Under Pressure, Have Been Through A Lot So Do Not Worry Your Work Will Be Done Fast And Efficiently</p>
