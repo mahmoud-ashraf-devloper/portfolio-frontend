@@ -30,21 +30,21 @@ const Navbar = () => {
                     <Image width={70} height={50} src={Logo} alt='/' />
                 </Link>
                 <div>
-                    <ul className='hidden md:flex space-x-10'>
+                    <ul className='hidden md:flex space-x-10 text-2xl'>
                         <Link href='/'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold hover:translate-y-2 ease-in-out duration-300 '>Home</li>
+                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold hover:translate-y-2 ease-in-out duration-300 '>About</li>
+                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold hover:translate-y-2 ease-in-out duration-300 '>Skills</li>
+                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold hover:translate-y-2 ease-in-out duration-300 '>Projects</li>
+                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold hover:translate-y-2 ease-in-out duration-300 '>Contact</li>
+                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>Contact</li>
                         </Link>
                     </ul>
                     <div onClick={handleNav} className='md:hidden cursor-pointer'>

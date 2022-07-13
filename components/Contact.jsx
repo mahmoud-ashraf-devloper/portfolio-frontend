@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import Link  from 'next/link';
-import {  AiOutlineMail } from 'react-icons/ai'
+import Link from 'next/link';
+import { AiOutlineMail } from 'react-icons/ai'
 import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
@@ -11,8 +11,10 @@ const Contact = () => {
         <div className='relative '>
             <div id='contact' className='w-full max-w-[1240px] mx-auto px-2 md:h-screen py-24 my-4'>
 
-                <h2 className='text-3xl tracking-widest uppercase text-[#5651e5]  text-center'>Contact</h2>
-                <h1 className='my-8 '>Get In Touch</h1>
+                <div className="flex justify-center">
+                    <h2 className='w-1/4  font-extrabold text-center text-transparent text-7xl bg-clip-text bg-gradient-to-r from-[#709dff] to-[#5651e5] uppercase'>Contact</h2>
+                </div>
+                <h1 className='my-8 uppercase'>Get In Touch</h1>
 
                 <div className='md:grid md:grid-cols-6 gap-4 h-5/6 w-full flex flex-col my-4 justify-center '>
                     <div className=' col-span-2 py-4 px-4 shadow-xl rounded-xl  shadow-gray-400 flex flex-col justify-between h-full'>
@@ -77,11 +79,11 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-                    <div className='absolute left-1/2 my-20 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <Link href='/' alt='/'>
-                            <HiOutlineChevronDoubleUp className='w-10 h-10  rounded-full shadow-lg my-4  shadow-gray-400 text-[#5651e5] p-2' />
-                        </Link>
-                    </div>
+            <div className='absolute left-1/2 my-20 cursor-pointer hover:scale-105 ease-in duration-300'>
+                <Link href='/' alt='/'>
+                    <HiOutlineChevronDoubleUp className='w-10 h-10  rounded-full shadow-lg my-4  shadow-gray-400 text-[#5651e5] p-2' />
+                </Link>
+            </div>
 
 
         </div>
