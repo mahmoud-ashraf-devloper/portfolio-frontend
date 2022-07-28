@@ -12,7 +12,7 @@ const Contact = () => {
             <div id='contact' className='w-full max-w-[1240px] mx-auto px-2 md:h-screen py-24 my-4'>
 
                 <div className="flex justify-center">
-                    <h2 className='w-1/4  font-extrabold text-center text-transparent text-7xl bg-clip-text bg-gradient-to-r from-[#709dff] to-[#5651e5] uppercase'>Contact</h2>
+                    <h2 className='w-1/4  font-extrabold text-center text-transparent text-2xl bg-clip-text bg-gradient-to-r from-[#709dff] to-[#5651e5] uppercase'>Contact</h2>
                 </div>
                 <h1 className='my-8 uppercase'>Get In Touch</h1>
 

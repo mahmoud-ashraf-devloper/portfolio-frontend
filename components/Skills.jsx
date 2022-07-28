@@ -12,7 +12,7 @@ const Skills = () => {
         <div id='skills' className="w-full lg:h-screen px-2 my-2">
             <div className="max-w-[1240px] mx-auto flex flex-col justify-center  h-full ">
                 <div className="flex justify-center">
-                    <h2 className='w-1/4  font-extrabold text-center text-transparent text-7xl bg-clip-text bg-gradient-to-r from-[#709dff] to-[#5651e5] uppercase'>Skills</h2>
+                    <h2 className='w-1/4  font-extrabold text-center text-transparent text-2xl bg-clip-text bg-gradient-to-r from-[#709dff] to-[#5651e5] uppercase'>Skills</h2>
                 </div>
                 <h1 className='my-8 uppercase'>What can I Do</h1>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:my-10">

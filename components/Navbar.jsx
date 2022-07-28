@@ -30,21 +30,21 @@ const Navbar = () => {
                     <Image width={70} height={50} src={Logo} alt='/' />
                 </Link>
                 <div>
-                    <ul className='hidden md:flex space-x-10 text-2xl'>
+                    <ul className='hidden md:flex space-x-10 text-lg'>
                         <Link href='/'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>Home</li>
+                            <li className='text-md  hover:text-[#5651e5] hover:font-bold duration-150 '>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>About</li>
+                            <li className='text-md  hover:text-[#5651e5] hover:font-bold duration-150 '>About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>Skills</li>
+                            <li className='text-md  hover:text-[#5651e5] hover:font-bold duration-150 '>Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>Projects</li>
+                            <li className='text-md  hover:text-[#5651e5] hover:font-bold duration-150 '>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='text-md uppercase hover:text-[#5651e5] hover:font-bold  ease-in duration-300 '>Contact</li>
+                            <li className='text-md  hover:text-[#5651e5] hover:font-bold duration-150 '>Contact</li>
                         </Link>
                     </ul>
                     <div onClick={handleNav} className='md:hidden cursor-pointer'>
@@ -52,8 +52,8 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
-                <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[40%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'hidden'}>
+            <div className={nav ? 'fixed left-0 top-0 w-full h-full bg-black/70' : ''}>
+                <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[40%] h-full bg-[#ecf0f3] p-10 ease-in duration-500' : 'hidden'}>
                     <div>
                         <div className='flex items-center justify-between'>
                             <Image src='/../public/assets/logo.png' width='87' height='35' alt='/' />

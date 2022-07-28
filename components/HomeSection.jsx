@@ -7,9 +7,9 @@ const HomeSection = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className="max-w-[1240px] w-full h-full mx-auto flex justify-center items-center">
         <div>
-          <p className="uppercase tracking-widest text-gray-400">Lets Build something Legendary Together</p>
+          <p className="uppercase tracking-widest pt-20 text-gray-400">Lets Build something Legendary Together</p>
 
-          <div className='text-gray-700 text-7xl font-bold my-20'>
+          <div className='text-gray-700 md:text-7xl text-3xl font-bold my-10 md:my-20'>
             <Typewriter
               options={{
                 strings: ['Hi, I am <span style="color: #5651e5">Mahmoud</span>', 'A full-Stack<span style="color: #5651e5"> Web Developer</span>'],
